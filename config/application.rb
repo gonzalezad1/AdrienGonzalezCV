@@ -7,7 +7,7 @@ require 'rails/all'
 Bundler.require(*Rails.groups)
 
 config.assets.initialize_on_precompile = false
-RAILS_ENV=production bundle exec rake assets:precompile
+
 
 module AdrienGonzalez
   class Application < Rails::Application

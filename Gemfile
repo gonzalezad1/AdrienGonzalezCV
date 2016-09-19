@@ -29,6 +29,7 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'googleajax'
 gem 'lato-rails'
 gem 'compass-rails'
+gem 'rack-timeout', '0.3.2'
 # Use Unicorn as the app server
 # gem 'unicorn'
 

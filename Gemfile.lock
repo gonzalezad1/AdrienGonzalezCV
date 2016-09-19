@@ -108,6 +108,7 @@ GEM
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
+    rack-timeout (0.3.2)
     rails (4.2.6)
       actionmailer (= 4.2.6)
       actionpack (= 4.2.6)
@@ -185,6 +186,7 @@ DEPENDENCIES
   jquery-rails
   lato-rails
   pg (~> 0.15)
+  rack-timeout (= 0.3.2)
   rails (= 4.2.6)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
