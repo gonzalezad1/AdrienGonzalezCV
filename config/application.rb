@@ -5,9 +5,7 @@ require 'rails/all'
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
-Dotenv::Railtie.load
 
-HOSTNAME = ENV['HOSTNAME']
 
 
 
@@ -26,6 +24,9 @@ module AdrienGonzalez
     # config.i18n.default_locale = :de
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
+    Dotenv::Railtie.load
+
+    HOSTNAME = ENV['HOSTNAME']
     config.serve_static_files = true
     
     config.active_record.raise_in_transactional_callbacks = false
