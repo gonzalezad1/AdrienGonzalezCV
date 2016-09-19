@@ -24,9 +24,7 @@ module AdrienGonzalez
     # config.i18n.default_locale = :de
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
-    Dotenv::Railtie.load
-
-    HOSTNAME = ENV['HOSTNAME']
+config.action_controller.asset_host = 'http://' + Figaro.env.hostname
     config.serve_static_files = true
     
     config.active_record.raise_in_transactional_callbacks = false

@@ -31,6 +31,7 @@ gem 'lato-rails'
 gem 'compass-rails'
 gem 'rack-timeout', '0.3.2'
 gem 'dotenv-rails', :groups => [:development, :test]
+gem "figaro"
 # Use Unicorn as the app server
 # gem 'unicorn'
 
