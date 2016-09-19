@@ -72,6 +72,10 @@ GEM
       sprockets (< 4.0)
     concurrent-ruby (1.0.2)
     debug_inspector (0.0.2)
+    dotenv (2.1.1)
+    dotenv-rails (2.1.1)
+      dotenv (= 2.1.1)
+      railties (>= 4.0, < 5.1)
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.9.14)
@@ -186,6 +190,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
   compass-rails
+  dotenv-rails
   googleajax
   jbuilder (~> 2.0)
   jquery-rails
@@ -193,7 +198,7 @@ DEPENDENCIES
   pg (~> 0.15)
   rack-timeout (= 0.3.2)
   rails (= 4.2.6)
-  rails_12factor (= 0.0.2)
+  rails_12factor
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   spring
